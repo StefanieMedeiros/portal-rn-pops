@@ -2,28 +2,94 @@
 <html lang="pt-br">
 <head>
   <meta charset="UTF-8" />
-  <title>Portal de POPs e Regras de Negócio</title>
+  <title>Portal METARH | POPs e Regras</title>
+
   <style>
     body {
+      margin: 0;
       font-family: Arial, sans-serif;
-      background: #f7f7f7;
+      background-color: #F4F6F8;
+      color: #4A4A4A;
+    }
+
+    header {
+      background-color: #0F2A44;
+      color: #FFFFFF;
+      padding: 24px 40px;
+    }
+
+    header h1 {
+      margin: 0;
+      font-size: 22px;
+    }
+
+    main {
       padding: 40px;
+      max-width: 900px;
+      margin: auto;
     }
-    h1 {
-      color: #222;
+
+    .card {
+      background: #FFFFFF;
+      border-radius: 8px;
+      padding: 32px;
+      box-shadow: 0 4px 12px rgba(0,0,0,0.08);
     }
-    p {
-      color: #555;
+
+    .menu {
+      display: flex;
+      gap: 24px;
+      margin-top: 24px;
+    }
+
+    .menu a {
+      flex: 1;
+      text-align: center;
+      padding: 24px;
+      border-radius: 8px;
+      text-decoration: none;
+      font-weight: bold;
+      color: #FFFFFF;
+      background-color: #1F4FD8;
+      transition: 0.2s;
+    }
+
+    .menu a:hover {
+      background-color: #163DAA;
+    }
+
+    footer {
+      text-align: center;
+      font-size: 12px;
+      color: #888;
+      margin-top: 40px;
     }
   </style>
 </head>
-<body>
-<h1>Portal de POPs e Regras de Negócio</h1>
-  <p>Bem-vindo ao repositório oficial de documentos.</p>
 
-  <ul>
-    <li><a href="pages/pops.html">📘 POPs</a></li>
-    <li><a href="pages/regras.html">📕 Regras de Negócio</a></li>
-  </ul>
+<body>
+
+  <header>
+    <h1>Portal de POPs e Regras de Negócio | METARH</h1>
+  </header>
+
+  <main>
+    <div class="card">
+      <p>
+        Bem-vindo ao portal oficial de documentos da METARH.
+        Aqui você encontrará Procedimentos Operacionais Padrão e Regras de Negócio organizados por área.
+      </p>
+
+      <div class="menu">
+        <a href="pages/pops.html">📘 POPs</a>
+        <a href="pages/regras.html">📕 Regras de Negócio</a>
+      </div>
+    </div>
+
+    <footer>
+      © METARH — Uso interno
+    </footer>
+  </main>
+
 </body>
 </html>
