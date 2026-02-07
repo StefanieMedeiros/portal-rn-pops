@@ -1,2 +1,0 @@
-# POPs
-Procedimentos Operacionais Padrão
